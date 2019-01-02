@@ -1,0 +1,7 @@
+// DataGrid - store - url - (Control+拖过去)
+// execute.xwl - ServerScript 
+// 第一种：（查询使用app.output）
+app.output('{call ICRCONFIG.P_ICR73010_Q({?@-10.result?},{?I_BUSI_DATE?},{?@varchar.O_RETURN_MSG?},{?@numeric.O_RETURN_CODE?})}');
+// 第二种：
+var result = app.output('{call ICRCONFIG.P_ICR73010_Q({?@-10.result?},{?I_BUSI_DATE?},{?@varchar.O_RETURN_MSG?},{?@numeric.O_RETURN_CODE?})}');
+app.send(Wb.encode(result));
