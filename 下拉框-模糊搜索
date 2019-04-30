@@ -1,0 +1,5 @@
+下拉框
+  combo -> store -> url：
+                          xwl：module -> string -> itemId: I_QUERY
+                                         string -> string: %{#query#}% 
+                               module -> dataprovider -> sql: {?I_QUERY?}
