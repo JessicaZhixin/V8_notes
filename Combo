@@ -1,0 +1,3 @@
+Combo 传值显示：
+value:{#MODEL_ID#}
+viewport1.afterrender: app.I_MODEL_ID.setRawValue('{#MODEL_ID#}')
