@@ -1,0 +1,7 @@
+grid下增加控件 feature 命名 features
+
+features: ftype: grouping;  startCollapsed: false
+					groupHeaderTpl: {name};
+ 					startCollapsed: false
+store(dataStore) -> groupField: TPS_TYPE_NAME //分组的字段名称大写          
+          
