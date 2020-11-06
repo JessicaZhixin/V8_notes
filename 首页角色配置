@@ -1,0 +1,8 @@
+0. 管理工具->变量配置->sys->home变量->值（这个值是首页xwl文件的URL捷径） eg.华创：home 
+1. 找到主首页所在文件夹 eg.华创:module->hczq->home.xwl这个目录
+2. 在目录下复制一份首页xwl文件重命名为 eg.home_jzb.xwl
+3. 修改xwl的文件属性URL捷径 eg.home_jzb
+4. 修改xwl文件viewport1控件afterrender里面Wb.open中url属性
+5. 管理工具->变量配置->sys->homes变量->值（填写备用首页）
+   eg.华创：homg_gdsy,固定收益部首页;home_nbpj,内部评级主页;home_subdata,子公司数据首页;home_subsidiary,子公司数据首页2;home_jzb,净资本首页
+   填写说明：备选首页地址，作为角色挂首页的数据源：数据格式（url捷径,页面描述，多条数据用;分隔）例:home,这是第一个首页;home2,这是第二个首页,home3,这是第三个首页
