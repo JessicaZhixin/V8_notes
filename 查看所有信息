@@ -1,3 +1,4 @@
+module->severscript
 app.log(app.get());
 
 
